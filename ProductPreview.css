@@ -1,0 +1,255 @@
+*{
+    font-family: Arial, sans-serif;  
+    
+    }
+    
+    .logo{
+    position: relative;
+    height: auto;
+    width: 250px;
+    top: 25px;
+    display: flex;
+    
+    }
+    
+    
+    .navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: black; /* Semi-transparent background */
+      color: white;
+      padding: 10px 0;
+      z-index: 1000; /* Ensure it stays above other content */
+      display: block;
+    }
+    
+    #logo { 
+      float:left;
+      display: inline-block;
+      height:90px;
+      width:auto;
+      margin: 0px;
+     padding: 0;
+      align-items: baseline;
+    }
+    
+    .navHeader{
+    
+        display: inline-block;
+        position: relative;
+        top: 0px;
+        left: 0px;
+       
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        padding: 0px;
+        margin-left: 1%;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    
+        color: white;
+        text-align: center;
+        width: auto;
+        height:auto;
+    }
+    
+    .navbar ul {
+      list-style: none;
+      
+      display: inline-flex;
+     float: right;
+      margin: 0;
+    }
+    
+    .navbar ul li {
+      margin: 0 15px;
+      align-items: flex-end;
+      display: inline;
+    
+    }
+    
+    .navbar ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    
+    .navbar ul li a:hover {
+      color: #FFD700; /* Gold color on hover */
+    }
+    
+    .logomain{
+    
+      height: 200px;
+      width: auto;
+      display: block;
+     margin: auto;
+    
+    
+    
+    }
+    .Dunk-header{
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+        
+    
+    
+    }
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.card {
+    
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    height: 500px;
+    overflow: hidden;
+    width: 400px;
+    margin-top:100px ;
+    
+}
+
+.card > figure {
+    width: 90%;
+    margin: 20px auto 0 auto;
+}
+
+.card > figure > img {
+    width: 100%;
+}
+
+.details {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    transition: box-shadow .3s ease-in-out,
+                top .3s ease-in-out;
+}
+
+.card:hover .details {
+    box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+    top: 40%;
+}
+
+.details > .min-details,
+.details > .options,
+.details > .options > .options-size,
+.details > .options > .options-colors {
+    margin-bottom: 20px;
+}
+
+.details > .min-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details > .min-details > h1 > span {
+    color: #7B7B7B;
+    display: block;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.details > .options h1 {
+    margin-bottom: 5px;
+}
+
+.details > .options ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.details > .options ul li {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    text-align: center;
+    width: 30px;
+}
+
+.options-size > ul > li {
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    font-size: .7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: background-color .3s ease-in-out;
+}
+
+.options-size > ul > li:hover {
+    background-color: #192a56;
+}
+
+.options-colors > ul > li {
+    border: none;
+}
+
+.options-colors > ul > li:nth-child(1) {
+    background-color: #FF1;
+}
+
+.options-colors > ul > li:nth-child(2) {
+    background-color: #000;
+}
+
+.options-colors > ul > li:nth-child(3) {
+    background-color: #FB0000;
+}
+
+.options-colors > ul > li:nth-child(4) {
+    background-color: #FF69B4;
+}
+
+.options-colors > ul > li:nth-child(5) {
+    background-color: #192a56;
+}
+
+.btn {
+    background-color:black;
+    border-radius: 5px;
+    color: #FFF;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    transition: box-shadow .3s ease-in-out,
+                transform .3s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,.3);
+  transform: translateY(-2px);
+}
