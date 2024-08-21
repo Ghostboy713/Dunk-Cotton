@@ -1,0 +1,49 @@
+.swipe {
+    margin: 20px;
+
+    position: relative;
+    background-color: #00334e;
+    width: 200px;
+    height: 60px;
+    color: #f25a26;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.35);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.35);
+    padding-left: 40px;
+    cursor: pointer;
+    transition: 0.35s ease;
+  }
+  
+  .swipe:hover {
+    padding-left: 0;
+    padding-right: 40px;
+    color: #f1f4f7;
+  }
+  
+  .container-btncss {
+    position: absolute;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background: #f25a26;
+    border-radius: 50%;
+    transition: 0.35s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f4f7;
+  }
+  
+  .swipe:hover .container-btncss {
+    left: calc(100% - 55px);
+    color: #324B4C;
+  }
+
+  
+
+  
