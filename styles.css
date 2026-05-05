@@ -68,7 +68,7 @@ display: flex;
 .welcome-section {
   position: relative;
   height: 100vh;
-  background-image: url('/assets/welcome_section.jpg');
+  background-image: url('./assets/welcome_section.jpg');
   background-size:inherit;
   background-position: center;
   display: flex;
@@ -194,7 +194,7 @@ transition: 1s;
 
 .wrapper{
 
-  background-image: url("bgg.avif");
+  background-image: url("./assets/bgg.avif");
   clip-path: polygon(0 0, 100% 3%, 100% 99%, 0 88%);
 
 }
