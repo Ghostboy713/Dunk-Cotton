@@ -78,8 +78,14 @@
       transition: color 0.3s;
     }
     
-    .navbar ul li a:hover {
+    .navbar ul li a:hover,
+    .navbar ul li a:focus,
+    .navbar ul li a:active {
       color: #FFD700; /* Gold color on hover */
+    }
+    
+    .navbar ul li a:visited {
+      color: white;
     }
     
     .logomain{

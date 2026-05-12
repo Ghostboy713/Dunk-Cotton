@@ -18,6 +18,7 @@ display: flex;
   top: 0;
   left: 0;
   width: 100%;
+  height: 70px;
   background: black; /* Semi-transparent background */
   color: white;
   padding: 10px 0;
@@ -78,8 +79,14 @@ display: flex;
   transition: color 0.3s;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover,
+.navbar ul li a:focus,
+.navbar ul li a:active {
   color: #FFD700; /* Gold color on hover */
+}
+
+.navbar ul li a:visited {
+  color: white;
 }
 
 .logomain{
